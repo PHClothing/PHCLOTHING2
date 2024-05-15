@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Hermansen's Clothing Brand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #e0dcd3;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #5a5a5a;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f0ece4;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5a5a5a;
+        }
+        .section {
+            padding: 20px;
+        }
+        .section h2 {
+            color: #5a5a5a;
+        }
+        .projects, .clothing {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project, .item {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            margin: 10px;
+            padding: 10px;
+            width: calc(33% - 40px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e0dcd3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Peter Hermansen's Clothing Brand</h1>
+    <p>A journey into sustainable fashion.</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Future Projects</a>
+    <a href="#clothing">Clothing for Sale</a>
+</nav>
+
+<div class="section" id="about">
+    <h2>About</h2>
+    <p>Hi, I'm Peter Hermansen. I started this clothing brand to bring sustainable and stylish clothing to everyone. My journey into fashion began with a simple idea: to create clothing that is both eco-friendly and fashionable. Join me as we explore new designs and ideas together.</p>
+</div>
+
+<div class="section" id="projects">
+    <h2>Future Projects</h2>
+    <p>Help me decide what to create next! Below are some ideas for upcoming projects. Your input is valuable to me.</p>
+    <div class="projects">
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Eco-friendly denim line. Let me know what you think!</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Organic cotton t-shirts. Your feedback is appreciated!</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Recycled material jackets. Share your thoughts!</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="clothing">
+    <h2>Clothing for Sale</h2>
+    <p>Check out our latest collections below.</p>
+    <div class="clothing">
+        <div class="item">
+            <h3>Item 1</h3>
+            <p>Stylish and sustainable t-shirt.</p>
+        </div>
+        <div class="item">
+            <h3>Item 2</h3>
+            <p>Eco-friendly jeans.</p>
+        </div>
+        <div class="item">
+            <h3>Item 3</h3>
+            <p>Comfortable and organic hoodie.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Peter Hermansen's Clothing Brand</p>
+</footer>
+
+</body>
+</html>
